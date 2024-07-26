@@ -1238,6 +1238,9 @@
         flex-direction: column;
         gap: 30px;
     }
+    .right-third-con a button {
+     border: 1px solid white;
+    }
 
 
 
