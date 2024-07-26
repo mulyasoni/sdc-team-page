@@ -1,0 +1,1244 @@
+@media only screen and (max-width:1024px) {
+    .main-section {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navbar ul {
+        /* display: none; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* gap: 10px; */
+        padding-top: 20px;
+        /* border: 2px solid red; */
+    }
+
+    .text-first-con {
+        /* border: 2px solid red; */
+        width: 45%;
+    }
+
+    /* ---------------------------------------------- */
+    .second-con {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 150vh;
+    }
+
+    .card-con-second {
+        /* border: 2px solid red; */
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 1500px;
+        gap: 30px;
+    }
+
+    .card-second-con {
+        width: 400px;
+    }
+
+    .bottom-third-con button {
+        margin-top: 20px;
+    }
+
+    /* ------------------------------------ */
+
+    .third-con {
+        width: 100%;
+        /* height: 100vh; */
+    }
+
+    .right-third-con p {
+        width: 80%;
+        color: rgba(255, 255, 255, 0.664);
+    }
+
+
+    .right-third-con h1 {
+        font-size: 45px;
+    }
+
+    /* -------------------------- */
+
+    .fourth-con {
+        width: 100%;
+
+    }
+
+    .card-fourth-con {
+        background: url(about\ us\ img-2.png);
+        background-size: cover;
+        background-position: 100%;
+        height: 40vh;
+        /* border: 2px solid red; */
+        width: 900px;
+        position: relative;
+    }
+
+    .text-card-fourth-con {
+        position: absolute;
+        bottom: 10px !important;
+        left: 20px !important;
+    }
+
+    /* -------------------------------------------------------- */
+
+    .fifth-con {
+        width: 100%;
+        /* border: 2px solid red; */
+        height: 180vh;
+    }
+
+    .top-fifth-con {
+        width: 100%;
+        /* border: 2px solid white; */
+    }
+
+    .top-fifth-con p {
+        width: 60% !important;
+        /* border-radius: 2px solid red; */
+    }
+
+    .bottom-fifth-con {
+        width: 80%;
+        height: 150vh;
+        /* border: 2px solid red; */
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .card-bfc1 {
+        width: 700px;
+        height: 400px;
+    }
+
+
+    .card-bfc2 {
+        width: 700px;
+        height: 400px;
+
+    }
+
+
+    .card-bfc3 {
+        height: 400px;
+        width: 700px;
+    }
+
+
+    /* -------------------------------------------------------- */
+
+    .sixth-con {
+        width: 100%;
+        height: 90vh;
+        /* border: 2px dashed red; */
+    }
+
+    .sc-h {
+        margin-bottom: -150px;
+    }
+
+    .card-sc {
+        /* border: 2px solid green !important;   */
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        gap: 30px !important;
+    }
+
+
+
+    #card-sc-two-yo {
+        display: none;
+    }
+
+    /* ------------------------------------------------------------- */
+
+    .seventh-con {
+        width: 100%;
+
+    }
+
+    .top-seventh-con {
+        width: 100%;
+        margin-left: 110px;
+        padding-left: 0px;
+    }
+
+    .left-bsc {
+        padding-left: 0px;
+        margin-left: 50px;
+    }
+
+    .first-second-input {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 40px;
+    }
+
+    .first-input {
+        /* border: 2px solid white; */
+        margin-left: 11px;
+    }
+
+    .second-input {
+        margin-right: 20px;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media only screen and (max-width:768px) {
+    .main-section {
+        width: 100%;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 50px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .text-first-con {
+        /* border: 2px solid red; */
+        width: 60%;
+    }
+
+    /* ----------------------------- */
+
+    .second-con {
+        width: 100%;
+        height: 180vh;
+        /* border: 2px solid red; */
+    }
+
+    .card-con-second {
+        /* border: 2px solid red; */
+        width: 100% !important;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 900px !important;
+        gap: 30px;
+    }
+
+    .card-second-con {
+        width: 300px;
+        height: 450px;
+        /* padding-top: 10px; */
+    }
+
+    .card-second-con h1 {
+        margin-top: 20px;
+    }
+
+    /* --------------------------------------------------- */
+
+    .third-con {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 120vh;
+        overflow: hidden;
+
+    }
+
+
+    .card-ltc {
+        /* border: 2px solid white; */
+        margin-right: -70px !important;
+        width: 300px;
+        height: 350px;
+        transform: translateY(0px) !important;
+    }
+
+    .third-con :not(:hover) {
+        transform: none !important;
+        transition: none !important;
+    }
+
+
+    .right-third-con {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 50vh;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: start !important;
+        margin-left: 0px;
+        padding-left: 0px;
+        /* padding-bottom: 30px; */
+    }
+
+    .right-third-con h1 {
+        font-size: 35px;
+    }
+
+    .right-third-con p {
+        width: 90%;
+        text-align: center;
+    }
+
+    /* ---------------------------------------------------- */
+
+    .fourth-con {
+        /* border: 2px solid white; */
+        width: 100%;
+    }
+
+    .card-fourth-con {
+        width: 720px;
+
+    }
+
+    /* -------------------------------------------------------- */
+
+    .fifth-con {
+        /* border: 2px solid white; */
+        width: 100%;
+        height: 210vh;
+    }
+
+    .top-fifth-con {
+        /* border: 2px solid red; */
+        height: 30vh;
+    }
+
+    .top-fifth-con h1 {
+        font-size: 40px !important;
+    }
+
+    .top-fifth-con p {
+        font-size: 15px;
+        line-height: 20px !important;
+    }
+
+    .bottom-fifth-con {
+        /* border: 2px solid red; */
+        height: 180vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /* ----------------------------- */
+
+    .sixth-con {
+        width: 100%;
+        /* border: 2px solid red; */
+        height: 150vh !important;
+    }
+
+    .sc-h {
+        /* margin-top: -500px !important; */
+        margin-bottom: 0px;
+    }
+
+    #card-sc-two-yo-yo {
+        display: none;
+    }
+
+    .card-sc {
+        /* border: 2px solid white; */
+        width: 450px;
+        height: 450px;
+    }
+
+    /* ------------------------------------------------------------------------ */
+
+    .seventh-con {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        overflow: hidden;
+    }
+
+    .top-seventh-con {
+        display: flex;
+
+        justify-content: center;
+        flex-direction: column;
+        width: 100% !important;
+        height: 30%;
+        margin-left: 50px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        /* border: 2px solid white; */
+    }
+
+    .top-seventh-con h1 {
+        font-size: 30px !important;
+    }
+
+    .top-seventh-con h3 {
+        font-size: 18px !important;
+    }
+
+    .bottom-seventh-con {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100% !important;
+        height: 70%;
+        /* border: 2px solid greenyellow; */
+    }
+
+    .left-bsc {
+        width: 100% !important;
+        /* border: 2px solid white; */
+        margin-left: 50px;
+        padding-left: 20px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+        padding-left: 0px !important;
+        gap: 0px;
+    }
+
+    .left-bsc h1 {
+        font-size: 30px !important;
+    }
+
+    .left-bsc h3 {
+        font-size: 18px !important;
+        /* border: 2px solid red; */
+        width: 60% !important;
+        /* text-align: center; */
+    }
+
+    .right-bsc {
+        display: none;
+    }
+
+
+    /* --------------------------------------------------------------------------------------------------------------- */
+    /* --------------------------------------------------------------------------------------------------------------- */
+    /* --------------------------------------------------------------------------------------------------------------- */
+
+
+    .first-con-team-page {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bottom-fctp span {
+        width: 200px !important;
+    }
+
+    .bottom-fctp h3 a {
+        /* border: 2px solid red; */
+        /* background-color: rebeccapurple; */
+        position: absolute;
+        left: 200px !important;
+    }
+
+    .bottom-fctp h1 {
+        /* border: 2px solid red; */
+        font-size: 50px !important;
+        position: absolute;
+        top: 80px;
+    }
+
+    .bottom-fctp p {
+        width: 92% !important;
+    }
+
+
+
+    .team-card-sctp {
+        /* border: 2px solid green; */
+        width: 210px;
+        height: 250px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (max-width:380px) {
+
+    .main-section {
+        width: 100%;
+        /* border: 2px solid red; */
+        height: 40vh;
+    }
+
+    .navbar {
+        width: 100%;
+        /* border: 2px solid white; */
+        position: relative;
+    }
+
+    .navbar h1 {
+        font-size: 15px !important;
+        width: 100% !important;
+        margin-left: -40px;
+        /* padding: 0px !important; */
+        margin-top: 5px;
+    }
+
+    .navbar span {
+        /* border: 2px solid red; */
+        font-size: 20px !important;
+    }
+
+    .icon-sec {
+        /* border: 2px solid red !important; */
+        width: 100px;
+        font-size: 15px !important;
+        position: absolute;
+        top: 10;
+        right: 10px;
+    }
+
+    .box {
+        height: 25px !important;
+        width: 27px !important;
+        /* border: 2px solid whitesmoke; */
+    }
+
+    .first-con h3 {
+        /* border: 2px solid red; */
+        width: 100% !important;
+    }
+
+    .span-fc {
+        width: 100% !important;
+        height: 10px !important;
+        /* border: 2px solid red !important; */
+        /* position: absolute; */
+        /* background-color: red !important; */
+        font-size: 20px;
+    }
+
+    .text-first-con {
+        width: 70%;
+    }
+
+    .text-first-con h1 {
+        font-size: 200px;
+    }
+
+    /* ---------------------------------------------------------------------------------- */
+
+    .second-con {
+        height: 100vh !important;
+    }
+
+    .top-second-con {
+        height: 20vh !important;
+        /* border: 2px solid red;/ */
+    }
+
+    .card-con-second {
+        height: 70vh !important;
+        /* border: 2px solid red; */
+
+    }
+
+    #csc-two {
+        display: none;
+    }
+
+    #csc-three {
+        display: none;
+    }
+
+    #csc-four {
+        display: none;
+    }
+
+    .bottom-third-con {
+        height: 10vh !important;
+        /* border: 2px solid red; */
+
+    }
+
+    /* ---------------------------------------------------------------------------------- */
+
+    .third-con {
+        /* border: 2px solid white; */
+        width: 100% !important;
+        height: 140vh;
+        border-bottom: 2px solid rgba(172, 171, 171, 0.185);
+    }
+
+    .left-third-con {
+        /* border: 2px solid red; */
+        width: 100%;
+        /* height: 50%; */
+        height: 70vh;
+    }
+
+    .card-ltc {
+        /* border: 2px solid whitesmoke; */
+        z-index: 1111111111111111111111 !important;
+    }
+
+    .right-third-con {
+        width: 100%;
+        height: 70vh;
+        /* border: 2px solid red; */
+    }
+
+    /* ---------------------------------------------------------------------------------------- */
+
+    .fourth-con {
+        display: none;
+    }
+
+    /* ------------------------------------------------------------------------------------- */
+
+    .fifth-con {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .card-bfc1 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .card-bfc1 p {
+        display: none;
+    }
+
+    .card-bfc2 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .card-bfc2 p {
+        display: none;
+    }
+
+    .card-bfc3 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .card-bfc3 p {
+        display: none;
+    }
+
+    /* ----------------------------------------------------------- */
+
+    .sixth-con {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 110vh !important;
+    }
+
+    .card-sc {
+        display: none !important;
+    }
+
+    .card-sc-two {
+        /* border: 2px solid red; */
+        width: 280px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px !important;
+    }
+
+    .card-sc-two img {
+        margin-left: -20px;
+    }
+
+    .text-csct img {
+        height: 58px !important;
+        width: 60px !important;
+        border-radius: 50%;
+    }
+
+    .text-csct h3 {
+        font-size: 18px;
+    }
+
+    /* -------------------------------------------------------- */
+
+    .seventh-con {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .top-seventh-con h3 {
+        width: 70%;
+        font-size: 18px !important;
+    }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (max-width:400px) {
+    .main-section {
+        /* border: 2px solid red !important; */
+        width: 100%;
+        height: 40vh;
+
+    }
+
+
+    .navbar h1 {
+        font-size: 16px !important;
+        width: 100% !important;
+        margin-left: -40px;
+        /* padding: 0px !important; */
+        margin-top: 5px;
+        font-weight: 100 !important;
+    }
+
+    .icon-sec {
+        /* border: 2px solid red !important; */
+        width: 100px;
+        font-size: 15px !important;
+        position: absolute;
+        top: 10;
+        right: 10px;
+    }
+
+    .box {
+        height: 21px !important;
+        width: 23px !important;
+        /* border: 2px solid whitesmoke; */
+    }
+
+    .text-first-con {
+        /* border: 2px solid red; */
+        width: 65%;
+    }
+
+    .text-first-con h1 {
+        font-size: 200px;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    .second-con {
+        height: 90vh !important;
+    }
+
+    .top-second-con {
+        height: 15vh !important;
+        /* border: 2px solid red;/ */
+    }
+
+    .card-con-second {
+        height: 67vh !important;
+        /* border: 2px solid red; */
+
+    }
+
+    #csc-two {
+        display: none;
+    }
+
+    #csc-three {
+        display: none;
+    }
+
+    #csc-four {
+        display: none;
+    }
+
+    .bottom-third-con {
+        height: 7vh !important;
+        /* border: 2px solid red; */
+
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    .third-con {
+        /* border: 2px solid white; */
+        width: 100% !important;
+        height: 150vh !important;
+        border-bottom: 2px solid rgba(172, 171, 171, 0.185);
+    }
+
+    .left-third-con {
+        /* border: 2px solid red; */
+        width: 100% !important;
+        height: 50% !important;
+        /* height: 55vh !important; */
+    }
+
+    .card-ltc {
+        /* border: 2px solid whitesmoke; */
+        z-index: 1111111111111111111111 !important;
+    }
+
+    .right-third-con {
+        width: 100%;
+        height: 50% !important;
+        /* height: 55vh !important; */
+        /* border: 2px solid red; */
+    }
+
+    /* ------------------------------------------------ */
+
+    .fourth-con {
+        display: none;
+    }
+
+    /* ----------------------------------------------------------------------- */
+
+    .fifth-con {
+        width: 100%;
+        /* border: 2px solid white; */
+        height: 250vh;
+    }
+
+    .card-bfc1 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .card-bfc1 p {
+        display: none;
+    }
+
+    .card-bfc2 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .card-bfc2 p {
+        display: none;
+    }
+
+    .card-bfc3 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .card-bfc3 p {
+        display: none;
+    }
+
+    /* ------------------------------------------------------------------------------------ */
+
+    .sixth-con {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 100vh !important;
+        position: relative;
+
+    }
+
+    .card-sc {
+        display: none !important;
+    }
+
+    .card-sc-two {
+        /* border: 2px solid red; */
+        width: 280px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px !important;
+    }
+
+    .card-sc-two img {
+        margin-left: -20px;
+    }
+
+    .text-csct img {
+        height: 58px !important;
+        width: 60px !important;
+        border-radius: 50%;
+    }
+
+    .text-csct h3 {
+        font-size: 18px;
+    }
+
+    .sc-h {
+        /* border: 2px solid whitesmoke; */
+        /* margin-top: 600px !important; */
+        position: absolute;
+        top: -100px;
+    }
+
+    /* -------------------------------------------------------- */
+
+    .seventh-con {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .top-seventh-con h3 {
+        width: 70%;
+        font-size: 18px !important;
+    }
+
+}
+
+
+@media only screen and (max-width:500px) {
+    .main-section {
+        /* border: 2px solid red !important; */
+        width: 100%;
+        height: 40vh;
+    }
+
+
+    .navbar h1 {
+        font-size: 16px !important;
+        width: 100% !important;
+        margin-left: -40px;
+        /* padding: 0px !important; */
+        margin-top: 5px;
+        font-weight: 100 !important;
+    }
+
+    .icon-sec {
+        /* border: 2px solid red !important; */
+        width: 100px;
+        font-size: 15px !important;
+        position: absolute;
+        top: 10;
+        right: 10px;
+    }
+
+    .box {
+        height: 21px !important;
+        width: 23px !important;
+        /* border: 2px solid whitesmoke; */
+    }
+
+    .text-first-con {
+        /* border: 2px solid red; */
+        width: 65%;
+    }
+
+    .text-first-con h1 {
+        font-size: 200px;
+    }
+
+    /* ------------------------------------------------------- */
+
+    .second-con {
+        height: 90vh !important;
+    }
+
+    .top-second-con {
+        height: 15vh !important;
+        /* border: 2px solid red;/ */
+    }
+
+    .card-con-second {
+        height: 67vh !important;
+        /* border: 2px solid red; */
+
+    }
+
+    #csc-two {
+        display: none;
+    }
+
+    #csc-three {
+        display: none;
+    }
+
+    #csc-four {
+        display: none;
+    }
+
+    .bottom-third-con {
+        height: 7vh !important;
+        /* border: 2px solid red; */
+
+    }
+
+    /* -------------------------------------------------- */
+
+
+    .third-con {
+        /* border: 2px solid red; */
+        width: 100% !important;
+        height: 110vh !important;
+        border-bottom: 2px solid rgba(172, 171, 171, 0.185);
+    }
+
+    .left-third-con {
+        /* border: 2px solid red; */
+        width: 100% !important;
+        height: 50% !important;
+        /* height: 55vh !important; */
+    }
+
+    .card-ltc {
+        /* border: 2px solid whitesmoke; */
+        z-index: 1111111111111111111111 !important;
+    }
+
+    .right-third-con {
+        width: 100%;
+        height: 50% !important;
+        /* height: 55vh !important; */
+        /* border: 2px solid red; */
+    }
+
+    /* -------------------------------------- */
+
+    .fourth-con {
+        display: none;
+    }
+
+    /* --------------------------------------------------------- */
+
+
+    .fifth-con {
+        width: 100%;
+        /* border: 2px solid white; */
+        height: 180vh !important;
+    }
+
+    .card-bfc1 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .card-bfc1 p {
+        display: none;
+    }
+
+    .card-bfc2 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .card-bfc2 p {
+        display: none;
+    }
+
+    .card-bfc3 {
+        width: 90%;
+        height: 350px;
+    }
+
+    .card-bfc3 p {
+        display: none;
+    }
+
+    /* ------------------------------------------------- */
+
+    .sixth-con {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 70vh !important;
+        position: relative;
+
+    }
+
+    .card-sc {
+        display: none !important;
+    }
+
+    .card-sc-two {
+        /* border: 2px solid red; */
+        width: 280px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px !important;
+    }
+
+    .card-sc-two img {
+        margin-left: -20px;
+    }
+
+    .text-csct img {
+        height: 58px !important;
+        width: 60px !important;
+        border-radius: 50%;
+    }
+
+    .text-csct h3 {
+        font-size: 18px;
+    }
+
+    .sc-h {
+        /* border: 2px solid whitesmoke; */
+        /* margin-top: 600px !important; */
+        position: absolute;
+        top: -100px;
+    }
+
+    /* -------------------------------------- */
+
+    .seventh-con {
+        width: 100%;
+        height: 80vh;
+        /* border: 2px solid red; */
+    }
+
+
+
+    .top-seventh-con h3 {
+        width: 70%;
+        font-size: 18px !important;
+    }
+
+    .bottom-seventh-con {
+        /* border: 2px solid red; */
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        padding-bottom: 200px;
+    }
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (max-width:430px) {
+    .first-con-team-page {
+        /* border: 2px solid red !important; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    .top-fctp {
+        position: relative;
+        /* border: 2px solid red; */
+        height: 10vh;
+        /* background-color: red; */
+        position: absolute;
+        top: 0;
+    }
+
+    .top-fctp h1 {
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 10px !important;
+        /* right: 0; */
+        left: 10px;
+    }
+
+    .bottom-fctp {
+        position: relative;
+        position: absolute;
+        /* background-color: rgba(0, 0, 0, 0.363); */
+        height: 50vh;
+        bottom: 0px !important;
+    }
+
+    .bottom-fctp span {
+        width: 150px !important;
+        position: absolute;
+        top: 50px !important;
+        /* border: 2px solid red; */
+    }
+
+    .bottom-fctp h3 a {
+        position: absolute;
+        top: 38px !important;
+        left: 150px !important;
+        /* border: 2px solid red; */
+    }
+
+    .bottom-fctp h1 {
+        font-size: 35px !important;
+        letter-spacing: 0px !important;
+    }
+
+    .bottom-fctp p {
+        width: 80%;
+        position: absolute;
+        top: 150px;
+        font-size: 18px !important;
+    }
+
+    .bottom-fctp button {
+        width: 150px !important;
+        height: 50px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        right: 130px;
+        top: 400px;
+        /* bottom: 50px; */
+        cursor: pointer;
+        /* border: 2px solid red; */
+    }
+
+    /* ----------------------------------------------------- */
+
+    .second-con-team-page{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 160vh;
+    }
+
+    .top-sctp{
+        /* background-color: red !important; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        height: 100vh;
+    }
+
+    
+    .bottom-sctp{
+        /* background-color: red !important; */
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+
+}
